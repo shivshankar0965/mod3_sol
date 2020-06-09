@@ -111,31 +111,30 @@ section {
 		font-family: Helvetica;
 		color: black;
 		margin: 0px;
-		
+
 		
 	}
 	
 	.row {
 		width: 90%;
 	}
+	
 /*desktop version*/
 	@media (min-width: 992px){
-		.column-lg-4 {
+		.column-md-4 {
 			float: left;
 			width: 33.33%;
-			margin-left: auto;
-			margin-right: auto;
 		}
 	}
 	/*tablet version*/
 	@media (min-width: 768px) and (max-width: 991px){
-		.colmn-md-6 {
+		.colmn-sm-6 {
 			float: left;
 			width: 50%;
 			margin-left: auto;
 			margin-right: auto;
 		}
-		.colmn-md-12 {
+		.colmn-sm-12 {
 			float: left;
 			width: 100%;
 			margin-left: auto;
@@ -144,9 +143,8 @@ section {
 	}
 	/*mobile version*/
 	@media (max-width: 767px){
-		.colmn-sm-12 {
+		.colmn-xs-12 {
 			float: left;
 			width: 100%;
 		}
 	}
-	
